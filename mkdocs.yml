@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: Textract
+#nav:
+#    - Home: index.md
+#    - API: DefaultApi.md
+theme:
+    name: mkdocs
+    include_sidebar: false
+    custom_dir: custom_theme

@@ -1,8 +1,9 @@
-<script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
-
 Convert <span id="typeit">*</span> to text
 ==========================================
 
+# *UNDER CONSTRUCTION - IN DEVELOPMENT*
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
 <script>
 	var options = {
 		strings: "pdf, docx, tiff, html, eml, msg, jpg, json, xml, zip, rar, rtf, pptx, xlsx, sql, csv".split(", "),
