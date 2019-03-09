@@ -1,0 +1,66 @@
+# Supported OCR languages
+
+- <img src="/css/flags/al.png" alt="Albanian" /> Albanian
+- <img src="/css/flags/az.png" alt="Azerbaijani" /> Azerbaijani
+- <img src="/css/flags/in.png" alt="Bengali" /> Bengali
+- <img src="/css/flags/us.png" alt="Cherokee" /> Cherokee
+- <img src="/css/flags/cn.png" alt="Chinese Simplified" /> Chinese Simplified
+- <img src="/css/flags/nl.png" alt="Dutch" /> Dutch
+- <img src="/css/flags/ee.png" alt="Estonian" /> Estonian
+- <img src="/css/flags/de.png" alt="Frankish" /> Frankish
+- <img src="/css/flags/fr.png" alt="Ancient French" /> Ancient French
+- <img src="/css/flags/gr.png" alt="Greek" /> Greek
+- <img src="/css/flags/in.png" alt="Hindi" /> Hindi
+- <img src="/css/flags/is.png" alt="Icelandic" /> Icelandic
+- <img src="/css/flags/jp.png" alt="Japanese" /> Japanese
+- <img src="/css/flags/lv.png" alt="Latvian" /> Latvian
+- <img src="/css/flags/id.png" alt="Malay" /> Malay
+- <img src="/css/flags/no.png" alt="Norwegian" /> Norwegian
+- <img src="/css/flags/ro.png" alt="Romanian" /> Romanian
+- <img src="/css/flags/se.png" alt="Swedish" /> Swedish
+- <img src="/css/flags/so.png" alt="Swahili" /> Swahili
+- <img src="/css/flags/in.png" alt="Tamil" /> Tamil
+- <img src="/css/flags/th.png" alt="Thai" /> Thai
+- <img src="/css/flags/vn.png" alt="Vietnamese" /> Vietnamese</a></li>
+- <img src="/css/flags/za.png" alt="Afrikaans" /> Afrikaans
+- <img src="/css/flags/es.png" alt="Basque" /> Basque
+- <img src="/css/flags/bg.png" alt="Bulgarian" /> Bulgarian
+- <img src="/css/flags/hr.png" alt="Croatian" /> Croatian
+- <img src="/css/flags/cn.png" alt="Chinese Traditional" /> Chinese Traditional
+- <img src="/css/flags/gb.png" alt="English" /> English
+- <img src="/css/flags/gb.png" alt="Esperanto" /> Esperanto
+- <img src="/css/flags/fi.png" alt="Finnish" /> Finnish
+- <img src="/css/flags/es.png" alt="Galician" /> Galician
+- <img src="/css/flags/gr.png" alt="Ancient Greek" /> Ancient Greek
+- <img src="/css/flags/hu.png" alt="Hungarian" /> Hungarian
+- <img src="/css/flags/it.png" alt="Italian" /> Italian
+- <img src="/css/flags/jp.png" alt="Kannada" /> Kannada
+- <img src="/css/flags/lt.png" alt="Lithuanian" /> Lithuanian
+- <img src="/css/flags/in.png" alt="Malayalam" /> Malayalam
+- <img src="/css/flags/pl.png" alt="Polish" /> Polish
+- <img src="/css/flags/ru.png" alt="Russian" /> Russian
+- <img src="/css/flags/si.png" alt="Slovenian" /> Slovenian
+- <img src="/css/flags/es.png" alt="Spanish" /> Spanish
+- <img src="/css/flags/ph.png" alt="Tagalog" /> Tagalog
+- <img src="/css/flags/tr.png" alt="Turkish" /> Turkish</a></li>
+- <img src="/css/flags/eg.png" alt="Arabic" /> Arabic
+- <img src="/css/flags/by.png" alt="Belarusian" /> Belarusian
+- <img src="/css/flags/es.png" alt="Catalan" /> Catalan
+- <img src="/css/flags/cz.png" alt="Czech" /> Czech
+- <img src="/css/flags/dk.png" alt="Danish" /> Danish
+- <img src="/css/flags/gb.png" alt="Ancient English" /> Ancient English
+- <img src="/css/flags/gb.png" alt="Ancient Esperanto" /> Ancient Esperanto
+- <img src="/css/flags/fr.png" alt="French" /> French
+- <img src="/css/flags/de.png" alt="German" /> German
+- <img src="/css/flags/il.png" alt="Hebrew" /> Hebrew
+- <img src="/css/flags/id.png" alt="Indonesian" /> Indonesian
+- <img src="/css/flags/it.png" alt="Ancient Italian" /> Ancient Italian
+- <img src="/css/flags/kr.png" alt="Korean" /> Korean
+- <img src="/css/flags/mk.png" alt="Macedonian" /> Macedonian
+- <img src="/css/flags/mt.png" alt="Maltese" /> Maltese
+- <img src="/css/flags/pt.png" alt="Portuguese" /> Portuguese
+- <img src="/css/flags/rs.png" alt="Serbian" /> Serbian
+- <img src="/css/flags/sk.png" alt="Slovakian" /> Slovakian
+- <img src="/css/flags/es.png" alt="Ancient Spanish" /> Ancient Spanish
+- <img src="/css/flags/in.png" alt="Telugu" /> Telugu
+- <img src="/css/flags/ua.png" alt="Ukrainian" /> Ukrainian
