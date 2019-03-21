@@ -1,20 +1,10 @@
+# *UNDER CONSTRUCTION - IN DEVELOPMENT*
+
 Convert <span id="typeit">*</span> to text
 ==========================================
 
-# *UNDER CONSTRUCTION - IN DEVELOPMENT*
-
 <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
-<script>
-	var options = {
-		strings: "pdf, docx, tiff, html, eml, msg, jpg, json, xml, zip, rar, rtf, pptx, xlsx, sql, csv".split(", "),
-		typeSpeed: 50,
-		backSpeed: 50,
-		//backDelay: 500,
-		shuffle: true,
-		loop: true
-	}
-	var typed = new Typed("#typeit", options);
-</script>
+<script src="index.js"></script>
 
 <iframe src="upload.html" style="width:100%;border:#4bb0ea inset;height:300px;"></iframe>
 
