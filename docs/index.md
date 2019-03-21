@@ -1,7 +1,7 @@
 Convert <span id="typeit">*</span> to text
 ==========================================
 
-# *UNDER CONSTRUCTION - IN DEVELOPMENT*
+Try it!
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
 <script>
@@ -16,7 +16,7 @@ Convert <span id="typeit">*</span> to text
 	var typed = new Typed("#typeit", options);
 </script>
 
-<iframe src="upload.html" style="width:100%;border:none;"></iframe>
+<iframe src="upload.html" style="width:100%;border:#4bb0ea inset;height:300px;"></iframe>
 
 Features
 --------

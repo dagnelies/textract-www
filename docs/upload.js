@@ -1,15 +1,18 @@
+var TEXTRACT_API_URL = "//api.textract.io";
+
 function sendFiles(files) {
 	console.debug('Sending files...');
 	console.log(files);
 	let formData = new FormData($('#to-upload')[0]);
 	console.log(formData);
 	
-	$('#progress').attr('data-value', 0);
-	$('#output').text("Uploading...");
+	$('#to-upload').prop('hidden', true);
+	$('#progress-up').attr('data-value', 0);
+	$('#progress-up').prop('hidden', false);
 	
 	$.ajax({
 		method: 'POST',
-		url: 'api.textract.io/text?api_key=betatest',
+		url: TEXTRACT_API_URL + '/text?api_key=betatest',
 		data: formData,
 		
 		// Tell jQuery not to process data or worry about content-type
@@ -26,16 +29,23 @@ function sendFiles(files) {
 				myXhr.upload.addEventListener('progress', function(e) {
 					console.debug(e);
 					if (e.lengthComputable) {
-						$('#progress').attr('data-value', 100 * e.loaded / e.total);
+						$('#progress-up').attr('data-value', 100 * e.loaded / e.total);
+						if( e.loaded == e.total ) {
+							$('#progress-up').prop('hidden', true);
+							$('#progress-busy').prop('hidden', false);
+						}
 					}
+					
 				} , false);
 			}
 			return myXhr;
 		},
-
 		success: function(res) {
 			console.debug(res);
+			$('#progress-busy').prop('hidden', true);
 			$('#output').text(res);
+			$('#output').prop('hidden', false);
+			$('#retry').prop('hidden', false);
 		},
 		error: function(xhr, err, msg) {
 			console.warn(err + " - " + msg);
@@ -43,4 +53,10 @@ function sendFiles(files) {
 			Metro.toast.create("Failed to convert document: " + xhr.responseText, null, 5000, "bg-red fg-white");
 		}
 	})
+}
+
+function retry() {
+	$('#output').prop('hidden', true);
+	$('#retry').prop('hidden', true);
+	$('#to-upload').prop('hidden', false);
 }

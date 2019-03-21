@@ -7,30 +7,28 @@
 	<link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
-	<script src="textract.js"></script>
+	<script src="upload.js"></script>
 </head>
 <body class="container">
 
-	<div id="step-upload">
-		<form id="to-upload" enctype="multipart/form-data">
-			<input name="file" type="file" data-role="file" data-mode="drop" data-on-select="sendFiles">
-			
-			<div>
-				<label>OCR language(s)</label>
+	<form id="to-upload" enctype="multipart/form-data">
+		<div class="row m-2">
+			<label class="cell-sm-3 text-right">OCR language(s)</label>
 
-				<select data-role="select">
-					<option>de</option>
-					<option selected="selected">en</option>
-					<option>fr</option>
-				</select>
+			<select class="cell-sm-9" data-role="select" multiple>
+				<option>deu</option>
+				<option selected="selected">eng</option>
+				<option>fra</option>
+			</select>
 
-			</div>
-		</form>
-	</div>
-			
-			<div id="progress-up" data-role="progress" data-cls-bar="bg-teal" data-value="0"></div>
-			<div id="progress-busy" data-role="progress" data-type="line"></div>
-			
-			<pre id="output" class="mt-2 p-2" style="max-height:500px; overflow:auto; border: 2px solid #eee;"></pre>
+		</div>
+		<input name="file" type="file" data-role="file" data-mode="drop" data-on-select="sendFiles">
+	</form>
+		
+	<div hidden id="progress-up" data-role="progress" data-cls-bar="bg-teal" data-value="0"></div>
+	<div hidden id="progress-busy" data-role="progress" data-type="line"></div>
+	
+	<button hidden id="retry" onclick="retry()" class="button info">Try another file!</button>
+	<pre hidden id="output"></pre>
 			
 </body>
