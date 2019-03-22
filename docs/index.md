@@ -6,6 +6,30 @@ Convert <span id="typeit">*</span> to text
 <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
 <script src="index.js"></script>
 
+<form id="to-upload" enctype="multipart/form-data">
+	<div class="row">
+		<label>OCR language(s)</label>
+
+		<select class="form-control">
+			<option>deu</option>
+			<option selected="selected">eng</option>
+			<option>fra</option>
+		</select>
+
+	</div>
+	<input name="file" type="file" data-role="file" data-mode="drop" data-on-select="sendFiles">
+</form>
+
+<link href="metro-file.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="metro-file.min.js"></script>
+
+
+<!--link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script-->
+	
+
 <iframe src="upload.html" style="width:100%;border:#4bb0ea inset;height:300px;"></iframe>
 
 Features
