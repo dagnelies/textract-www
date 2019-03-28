@@ -1,11 +1,24 @@
 {% extends "base.html" %}
 
-{%- block next_prev %}
+{% block site_name %}
+{% endblock %}
+	  
+{% block next_prev %}
+{% endblock %}
+
+{%- block search_button %}
+{% endblock %}
+
+{%- block menu_right %}
+<li>
+    <a href="https://dashboard.textract.io"><span class="icon icon-"></span> Dashboard</a>
+</li>
 {% endblock %}
 
 {% block content %}
-    <div class="col-md-12" role="main">{% include "content.html" %}</div>
+    <div class="container" role="main">{% include "content.html" %}</div>
 {% endblock %}
 
 {% block footer %}
 {% endblock %}
+

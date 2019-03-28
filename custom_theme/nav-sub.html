@@ -1,0 +1,14 @@
+{%- if not nav_item.children %}
+<li>
+    <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
+</li>
+{%- else %}
+  <li>
+    <a href="#" class="dropdown-toggle">{{ nav_item.title }}</a>
+    <ul class="d-menu bg-teal fg-white" data-role="dropdown">
+        {%- for nav_item in nav_item.children %}
+            {% include "nav-sub.html" %}
+        {%- endfor %}
+    </ul>
+  </li>
+{%- endif %}
