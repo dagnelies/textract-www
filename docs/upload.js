@@ -1,4 +1,4 @@
-var TEXTRACT_API_URL = "//api.textract.io";
+var TEXTRACT_API_URL = "http://localhost";
 
 function sendFiles(files) {
 	console.debug('Sending files...');
