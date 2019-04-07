@@ -13,7 +13,7 @@ Libraries
 Once you got an *API key*, use the HTTP API directly or use a library in your favourite language (more coming soon).
 
 <div class="tiles" style="display:flex;justify-content:space-evenly;">
-	<a href="/libs/http">
+	<a href="https://app.swaggerhub.com/apis-docs/dagnelies/Textract/0.2" target="_blank">
 		<img src="/img/http.png" />
 		<span>HTTP</span>
 	</a>
