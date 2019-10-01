@@ -1,4 +1,4 @@
-# *UNDER CONSTRUCTION*
+# *BETA*
 
 Convert <span id="typeit"></span> to text
 ==========================================
