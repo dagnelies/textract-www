@@ -1,4 +1,4 @@
-# *BETA*
+# (Beta Version)
 
 Convert <span id="typeit"></span> to text
 ==========================================
