@@ -1,4 +1,5 @@
-var TEXTRACT_API_URL = "//api.textract.io";
+//var TEXTRACT_API_URL = "//api.textract.io";
+var TEXTRACT_API_URL = "//116.203.68.29";
 
 function sendFiles(files) {
 	console.debug('Sending files...');
